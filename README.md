@@ -1,6 +1,6 @@
 # MEUCBFPM
 
-Aplicação de estudos com React, TanStack Start, Supabase e OpenAI, preparada para hospedagem Node.js na Hostinger.
+Aplicação de estudos com React, TanStack Start, Supabase e OpenAI, preparada para Cloudflare Workers e hospedagem Node.js.
 
 ## Desenvolvimento
 
@@ -21,6 +21,8 @@ npm start
 
 O servidor é gerado em `.output/server/index.mjs`. Configure as variáveis `VITE_*` antes do build e os segredos do servidor no ambiente de execução. Não publique arquivos `.env` ou chaves.
 
-Consulte [HOSTINGER.md](HOSTINGER.md) para os campos do hPanel e a conexão com o novo Supabase. As migrações e a conta administrativa já foram configuradas nesse backend; não execute instalação inicial novamente sobre o banco existente.
+Para publicar na Cloudflare, consulte [CLOUDFLARE.md](CLOUDFLARE.md) e execute `npm run build:cloudflare`. O arquivo `wrangler.jsonc` configura o Worker e os assets.
+
+Consulte [HOSTINGER.md](HOSTINGER.md) para a alternativa Node.js no hPanel. As migrações e a conta administrativa já foram configuradas no novo Supabase; não execute instalação inicial novamente sobre o banco existente.
 
 `MEUCBFPM-projeto.zip` é o arquivo original preservado. O código atualizado está na raiz deste repositório; use `package.json` e `package-lock.json` para instalar e construir.
