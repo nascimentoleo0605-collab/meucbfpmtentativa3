@@ -1,0 +1,33 @@
+# Roadmap
+- [x] Banco de dados, login só por contas criadas pelo admin
+- [x] Admin: cadastro de questões (múltipla escolha, matéria/assunto) e usuários
+- [x] Estudar com correção imediata
+- [x] Painel: acertos/erros por matéria e assunto, evolução no tempo, filtro de período
+- [x] Importação de questões por CSV
+- [x] Importação de questões por PDF com reconhecimento e revisão do gabarito
+- [x] Geração automática de 20 ou 30 questões A–D a partir de PDF de matéria
+- [x] Visual minimalista escuro, suave, rápido e prático
+- [x] Aceitar PDFs maiores que 20 MB e extrair questões existentes
+- [x] Facilitar cadastro de questões com imagens
+- [x] Mostrar resultado da última tentativa, aviso de acerto/erro e gabarito
+- [x] Filtrar para refazer somente questões erradas e mostrar sequência de acertos
+- [x] Criar ranking por total de acertos
+- [x] Criar visão de aproveitamento percentual em blocos por matéria
+- [x] Abrir Estudar pela matéria selecionada e preservar o retorno à página anterior
+- [x] Ampliar o reconhecimento de questões e alternativas em PDFs e repetir a leitura com OCR quando necessário
+- [x] Criar aba para gerar resumo por matéria e assunto com IA
+- [x] Admin: colar texto de prova e cadastrar automaticamente questões com alternativas marcadas como certas
+- [x] Ampliar o banco para carregar e administrar até 1.500 questões
+- [x] Embaralhar questões ao estudar, com ou sem filtros, sem mudar a ordem durante a resposta
+- [x] Renovar painel, filtros, estudo e acesso com explicação curta por IA e contato no WhatsApp
+- [x] Corrigir a geração de resumos por IA
+- [x] Tornar os gráficos de desempenho mais claros e interativos
+- [x] Permitir iniciar o estudo por assunto diretamente em Matérias
+- [x] Adicionar transições suaves entre páginas e estados
+- [x] Destacar sequência a partir de 5 acertos com fogo animado e feedback mais vivo em acertos e erros
+- [x] Permitir baixar o resumo criado em PDF
+- [x] Renovar a apresentação e a interação do ranking
+- [x] Corrigir a sobreposição dos textos no gráfico por assunto do painel
+- [x] Criar aba Provão com 50 questões individuais geradas a partir do banco, predominância do módulo 3, nota e diagnóstico por matéria
+- [x] Exibir o nome da aba como “Provão”, sem letras maiúsculas em todo o nome
+- [x] MEUCBFPM IA: gerar 10 questões a partir de PDF enviado pelo aluno

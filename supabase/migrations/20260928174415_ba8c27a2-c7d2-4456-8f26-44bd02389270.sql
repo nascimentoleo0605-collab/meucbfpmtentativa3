@@ -1,0 +1,1 @@
+DROP POLICY IF EXISTS "Authenticated users read question images" ON storage.objects;

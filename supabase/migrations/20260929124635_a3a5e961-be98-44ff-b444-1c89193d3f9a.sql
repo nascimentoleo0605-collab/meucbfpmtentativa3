@@ -1,0 +1,1 @@
+CREATE POLICY "Service reads provao sessions" ON public.provao_sessions FOR SELECT TO service_role USING (true);

@@ -1,0 +1,1 @@
+ALTER TABLE public.assistant_attempts ADD COLUMN subject text NOT NULL DEFAULT 'Meu Assistente', ADD COLUMN topic text NOT NULL DEFAULT '';
